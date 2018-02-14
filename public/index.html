@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>File Metadata - Josh Amore</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>File Metadata</h1>
+            <br>
+            <h2>Usage</h2>
+            <p>Upload a file by using the below options.</p>
+            <p>You will recieve the file's size in bytes as a JavaScript object.</p>
+            <br>
+
+            <h2>Uploader</h2>
+            <br>
+
+            <div class="container">
+                <form action="/upload" method="POST" enctype="multipart/form-data">
+                    <div>
+                        <input name="myFile" type="file">
+                    </div>
+
+                    <br>
+
+                    <button class="btn btn-primary">Upload</button>
+                </form>
+            </div>
+
+            <p><em>Coded by <a href='https://joshamore.com' target="_blank">Josh Amore</a>.</em></p>
+        </div>
+    </body>
+
+</html>
