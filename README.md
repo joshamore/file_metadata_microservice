@@ -5,8 +5,6 @@
 ## What it does
 An app that returns the size of an uploaded file (in bytes) as a JavaScript object.
 
-Use `?offser=x` to set the number of results you would like returned.
-
 ## Output example
 
 **Uploading a jpg image will return this**
